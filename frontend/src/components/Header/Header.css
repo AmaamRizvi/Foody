@@ -1,0 +1,59 @@
+.header{
+    height: 34vw;
+    margin: 30px auto;
+    background: url('/header_img.png') no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.haeder-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 2s;
+}
+.haeder-contents h2{
+    font-size: max(4.5vw,22px);
+    font-weight: 500;
+    color: #fff;
+}
+.haeder-contents p{
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+.haeder-contents button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: #fff;
+    font-size: max(1vw,13px);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+@media (max-width:1050px) {
+    .haeder-contents{
+        max-width: 45%;
+    }
+}
+@media (max-width:750px) {
+    .haeder-contents{
+        max-width: 65%;
+    }
+    .haeder-contents p{
+        display: none;
+    }
+    .haeder-contents button{
+        padding: 2vw 4vw;
+    }
+}
+
+
