@@ -38,6 +38,13 @@
     cursor: pointer;
     transition: 0.3s;
 }
+.footer-copyright a{
+    display: flex;
+    margin-left: 100px;
+    padding: 5px;
+    text-decoration: underline;
+    color: tomato;
+}
 
 @media (max-width:1050px) {
     .haeder-contents{

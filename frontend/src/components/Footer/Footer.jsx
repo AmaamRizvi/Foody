@@ -19,7 +19,7 @@ const Footer = () => {
             <a href="#home">Home</a>
             <li>Contact Us</li>
             <a href="#app-download">Mobile App</a>
-            < br />
+            <br />
             <a href="#explore-menu">About Us</a>
             <li>Privacy Policy</li>
           </ul>
@@ -41,6 +41,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-copyright">
+        <a href="https://github.com/AmaamRizvi">Design By Amaam Rizvi</a>
         <p>Copyright 2024 © Tomato.com - All Rights Reserved.</p>
       </div>
     </div>
